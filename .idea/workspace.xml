@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ea4dcc5-1ad6-4c45-83fc-7cbeeeeb9506" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/views.xml" afterPath="$PROJECT_DIR$/views/views.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,13 +16,31 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="GestorAcademicoDB2@192.168.99.101" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
+            <state relative-caret-position="0">
               <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
               <folding />
             </state>
@@ -30,8 +50,8 @@
       <file leaf-file-name="views.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/views.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="37" column="60" lean-forward="true" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
+            <state relative-caret-position="-520">
+              <caret line="20" column="10" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -41,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/demo/demo.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="156">
-              <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -50,14 +70,19 @@
       <file leaf-file-name="__manifest__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/__manifest__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1352">
-              <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+            <state relative-caret-position="524">
+              <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tree,form</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -80,10 +105,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="7667" />
-    <option name="y" value="-13" />
-    <option name="width" value="2074" />
-    <option name="height" value="1482" />
+    <option name="x" value="7648" />
+    <option name="width" value="2088" />
+    <option name="height" value="1466" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -167,6 +191,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
   </component>
   <component name="RunManager" selected="Docker Deployment.ODOO2">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -437,7 +462,7 @@
       <deployment type="docker-image">
         <settings>
           <option name="JSONFilePath" value="" />
-          <option name="command" value="/usr/bin/odoo --db_host 172.17.0.2 --db_port 5432 --db_user odoo --db_password odoo  --xmlrpc-port 8069 -d GestorAcademicoDB2 -u gestor_academico " />
+          <option name="command" value="/usr/bin/odoo --db_host 172.17.0.2 --db_port 5432 --db_user odoo --db_password odoo  --xmlrpc-port 8069 -d GestorAcademicoDB  -u gestor_academico2 " />
           <option name="containerName" value="gaOdoo2" />
           <option name="entrypoint" value="" />
           <option name="imageTag" value="odoo:10.0" />
@@ -499,31 +524,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="7667" y="-13" width="2074" height="1482" extended-state="6" />
+    <frame x="7648" y="0" width="2088" height="1466" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21632653" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11396304" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11315647" sideWeight="0.6359275" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22038111" sideWeight="0.6359275" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11365495" sideWeight="0.2984694" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27379262" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2734694" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2694678" sideWeight="0.4968017" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936722" sideWeight="0.49573863" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24813433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17089126" sideWeight="0.70153064" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14913008" sideWeight="0.70153064" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32990807" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988003" sideWeight="0.4971591" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29745808" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,22 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/demo.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/__manifest__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1352">
-          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/profe.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -594,16 +603,252 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
+        <state relative-caret-position="0">
           <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.ir_ui_view">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.ir_ui_view</OriginalElement>
+          <nodes>
+            <node x="232.24271708683477" y="1094.0">d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_company</node>
+            <node x="1352.2427170868348" y="1424.0">d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_country_state</node>
+            <node x="1159.7927170868345" y="0.0">d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_currency</node>
+            <node x="1078.7427170868348" y="4278.0">d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_users</node>
+            <node x="546.2427170868348" y="2233.0">d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_partner</node>
+            <node x="1659.5" y="547.0">d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_country</node>
+            <node x="1235.7427170868348" y="5041.0">d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.ir_model_data</node>
+            <node x="1702.2427170868348" y="1446.0">d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_partner_title</node>
+            <node x="48.0" y="569.0">d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_font</node>
+            <node x="970.2427170868348" y="5676.0">d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.ir_ui_view</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_users" target="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_users">
+              <point x="-112.5" y="336.5" />
+              <point x="1191.2427170868348" y="4981.0" />
+              <point x="1048.7427170868348" y="4981.0" />
+              <point x="1048.7427170868348" y="4446.25" />
+              <point x="-225.0" y="-168.25" />
+            </edge>
+            <edge source="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.ir_ui_view" target="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.ir_model_data">
+              <point x="170.0" y="-402.5" />
+              <point x="1395.2427170868348" y="5651.0" />
+              <point x="1440.7427170868348" y="5651.0" />
+              <point x="0.0" y="292.5" />
+            </edge>
+            <edge source="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_country_state" target="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_country">
+              <point x="0.0" y="-204.5" />
+              <point x="1517.2427170868348" y="1074.0" />
+              <point x="1798.25" y="1074.0" />
+              <point x="-46.25" y="248.5" />
+            </edge>
+            <edge source="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_partner" target="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_company">
+              <point x="-404.0" y="-952.5" />
+              <point x="647.2427170868348" y="2213.0" />
+              <point x="704.7427170868348" y="2213.0" />
+              <point x="157.5" y="534.5" />
+            </edge>
+            <edge source="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_partner" target="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_partner_title">
+              <point x="404.0" y="-952.5" />
+              <point x="1455.2427170868348" y="2213.0" />
+              <point x="1753.9093837535015" y="2213.0" />
+              <point x="-103.33333333333326" y="182.5" />
+            </edge>
+            <edge source="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_country" target="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_currency">
+              <point x="0.0" y="-248.5" />
+              <point x="1844.5" y="527.0" />
+              <point x="1391.0427170868345" y="527.0" />
+              <point x="46.25" y="248.5" />
+            </edge>
+            <edge source="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_users" target="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_partner">
+              <point x="-52.94117647058829" y="-336.5" />
+              <point x="1250.8015406162465" y="4198.0" />
+              <point x="967.076050420168" y="4198.0" />
+              <point x="-84.16666666666674" y="952.5" />
+            </edge>
+            <edge source="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_partner" target="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_country">
+              <point x="0.0" y="-952.5" />
+              <point x="1051.2427170868348" y="1064.0" />
+              <point x="1705.75" y="1064.0" />
+              <point x="-138.75" y="248.5" />
+            </edge>
+            <edge source="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_country_state" target="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_users">
+              <point x="110.0" y="204.5" />
+              <point x="1627.2427170868348" y="2203.0" />
+              <point x="1666.2342436974786" y="2203.0" />
+              <point x="1666.2342436974786" y="4208.0" />
+              <point x="1383.1544817927172" y="4208.0" />
+              <point x="79.41176470588243" y="-336.5" />
+            </edge>
+            <edge source="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_font" target="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_users">
+              <point x="-116.66666666666674" y="226.5" />
+              <point x="106.33333333333326" y="1074.0" />
+              <point x="130.25" y="1074.0" />
+              <point x="130.25" y="4248.0" />
+              <point x="1118.448599439776" y="4248.0" />
+              <point x="-185.29411764705878" y="-336.5" />
+            </edge>
+            <edge source="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_company" target="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_users">
+              <point x="-52.5" y="534.5" />
+              <point x="494.7427170868348" y="2213.0" />
+              <point x="409.17619047619064" y="2213.0" />
+              <point x="409.17619047619064" y="4218.0" />
+              <point x="1197.8603641456584" y="4218.0" />
+              <point x="-105.88235294117635" y="-336.5" />
+            </edge>
+            <edge source="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.ir_model_data" target="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_users">
+              <point x="-102.5" y="-292.5" />
+              <point x="1338.2427170868348" y="5021.0" />
+              <point x="1416.2427170868348" y="5021.0" />
+              <point x="112.5" y="336.5" />
+            </edge>
+            <edge source="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_company" target="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_font">
+              <point x="-157.5" y="-534.5" />
+              <point x="389.7427170868348" y="1074.0" />
+              <point x="339.66666666666674" y="1074.0" />
+              <point x="116.66666666666669" y="226.5" />
+            </edge>
+            <edge source="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_partner_title" target="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_users">
+              <point x="103.33333333333326" y="182.5" />
+              <point x="1960.576050420168" y="2213.0" />
+              <point x="1915.6509103641454" y="2213.0" />
+              <point x="1915.6509103641454" y="4228.0" />
+              <point x="1436.0956582633053" y="4228.0" />
+              <point x="132.3529411764705" y="-336.5" />
+            </edge>
+            <edge source="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_currency" target="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_users">
+              <point x="138.75" y="248.5" />
+              <point x="1483.5427170868345" y="517.0" />
+              <point x="2069.0354341736693" y="517.0" />
+              <point x="2069.0354341736693" y="4258.0" />
+              <point x="1515.5074229691877" y="4258.0" />
+              <point x="211.76470588235293" y="-336.5" />
+            </edge>
+            <edge source="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_company" target="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_company">
+              <point x="-262.5" y="534.5" />
+              <point x="284.7427170868348" y="2183.0" />
+              <point x="212.24271708683477" y="2183.0" />
+              <point x="212.24271708683477" y="1628.5" />
+              <point x="-315.0" y="-0.0" />
+            </edge>
+            <edge source="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.ir_ui_view" target="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_users">
+              <point x="-170.0" y="-402.5" />
+              <point x="1055.2427170868348" y="5651.0" />
+              <point x="1214.2427170868348" y="5651.0" />
+              <point x="1214.2427170868348" y="5001.0" />
+              <point x="1266.2427170868348" y="5001.0" />
+              <point x="-37.5" y="336.5" />
+            </edge>
+            <edge source="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_partner" target="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_users">
+              <point x="252.5" y="952.5" />
+              <point x="0.0" y="-336.5" />
+            </edge>
+            <edge source="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_country" target="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_users">
+              <point x="138.75" y="248.5" />
+              <point x="1983.25" y="1064.0" />
+              <point x="2058.0354341736693" y="1064.0" />
+              <point x="2058.0354341736693" y="4248.0" />
+              <point x="1489.0368347338936" y="4248.0" />
+              <point x="185.29411764705878" y="-336.5" />
+            </edge>
+            <edge source="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_company" target="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_partner">
+              <point x="262.5" y="534.5" />
+              <point x="809.7427170868348" y="2213.0" />
+              <point x="849.2427170868348" y="2213.0" />
+              <point x="-202.0" y="-952.5" />
+            </edge>
+            <edge source="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.ir_ui_view" target="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.ir_ui_view">
+              <point x="0.0" y="402.5" />
+              <point x="1225.2427170868348" y="6501.0" />
+              <point x="950.2427170868348" y="6501.0" />
+              <point x="950.2427170868348" y="6078.5" />
+              <point x="-255.0" y="-0.0" />
+            </edge>
+            <edge source="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_users" target="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_company">
+              <point x="-79.4117647058822" y="-336.5" />
+              <point x="1224.3309523809526" y="4208.0" />
+              <point x="505.7427170868348" y="4208.0" />
+              <point x="505.7427170868348" y="2213.0" />
+              <point x="599.7427170868348" y="2213.0" />
+              <point x="52.5" y="534.5" />
+            </edge>
+            <edge source="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_partner" target="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_partner">
+              <point x="-252.5" y="952.5" />
+              <point x="798.7427170868348" y="4168.0" />
+              <point x="516.2427170868348" y="4168.0" />
+              <point x="516.2427170868348" y="2709.25" />
+              <point x="-505.0" y="-476.25" />
+            </edge>
+            <edge source="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_company" target="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_currency">
+              <point x="157.5" y="-534.5" />
+              <point x="704.7427170868348" y="527.0" />
+              <point x="1298.5427170868345" y="527.0" />
+              <point x="-46.25" y="248.5" />
+            </edge>
+            <edge source="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_partner" target="d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.res_country_state">
+              <point x="202.0" y="-952.5" />
+              <point x="1253.2427170868348" y="2213.0" />
+              <point x="1407.2427170868348" y="2213.0" />
+              <point x="-110.0" y="204.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8554976230639472" x="686.5384767060427" y="5452.538476706042" />
+          <SelectedNodes>
+            <node>d22d46e7-3b44-472c-912b-75d3b5f2458e.TABLE:GestorAcademicoDB2.public.ir_ui_view</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d22d46e7-3b44-472c-912b-75d3b5f2458e/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/4d842d99/d22d46e7-3b44-472c-912b-75d3b5f2458e/GestorAcademicoDB2.public.ir_ui_view">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__manifest__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/demo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/views.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="37" column="60" lean-forward="true" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
+        <state relative-caret-position="-520">
+          <caret line="20" column="10" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
           <folding />
         </state>
       </provider>

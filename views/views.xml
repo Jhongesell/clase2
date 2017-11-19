@@ -14,6 +14,19 @@
           </field>
       </record>
 
+      <record model="ir.ui.view" id="ga_list_profesores_2" >
+          <field name="name">Lista de profesores</field>
+          <field name="model">ga.profesor</field>
+          <field name="priority">10</field>
+          <field name="arch" type="xml">
+              <tree>
+                  <field name="nombre"/>
+                  <field name="apellido"/>
+                  <field name="anioNacimiento"/>
+              </tree>
+          </field>
+      </record>
+
       <record model="ir.ui.view" id="ga_search_profesores" >
           <field name="name">Búsqueda profesores</field>
           <field name="model">ga.profesor</field>
@@ -28,7 +41,7 @@
       <record model="ir.ui.view" id="ga_form_profesores" >
           <field name="name">Profesor</field>
           <field name="model">ga.profesor</field>
-          <field name="priority">0</field>
+          <field name="priority">1</field>
           <field name="arch" type="xml">
               <form>
                   <sheet>
@@ -47,14 +60,29 @@
               </form>
           </field>
       </record>
+
+      <record model="ir.ui.view" id="ga_form_profesores_2" >
+          <field name="name">Profesor</field>
+          <field name="model">ga.profesor</field>
+          <field name="priority">10</field>
+          <field name="arch" type="xml">
+              <form>
+                  <sheet>
+                      <group>
+                          <field name="nombre"/>
+                          <field name="apellido"/>
+                      </group>
+                  </sheet>
+              </form>
+          </field>
+      </record>
       <!--Action (tipo de ventana FULL , SELF)-->
       <record model="ir.actions.act_window"
               id="action_list_profesores">
-
-            <field name="name">actionProfesor</field>
+            <field name="name">Lista de Profesores</field>
             <field name="res_model">ga.profesor</field>
-            <field name="view_id" ref="ga_list_profesores"/>
-            <field name="search_view_id" ref="ga_search_profesores"/>
+            <field name="view_id" ref="ga_list_profesores_2"/>
+            <field name="view_mode">tree,form</field>
       </record>
 
       <menuitem name="Gestor Académico"

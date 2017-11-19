@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="GestorAcademicoDB2@192.168.99.101" uuid="d22d46e7-3b44-472c-912b-75d3b5f2458e">
+      <database-info product="PostgreSQL" version="9.4.14" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4.1212">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>odoo</user-name>
+      <resolve-scope>GestorAcademicoDB2:public,odoo</resolve-scope>
+    </data-source>
+  </component>
+</project>
