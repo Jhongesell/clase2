@@ -56,6 +56,7 @@
                             <field name="apellido"/>
                               <field name="sueldo"/>
                               <field name="edad"/>
+                              <field name="email"/>
                           </group>
                       </div>
                       <div>
