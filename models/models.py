@@ -46,6 +46,17 @@ class curso(models.Model):
     costo=fields.Monetary(string="Costo",currency_field="currency_id")
     currency_id=fields.Many2one("res.currency",string="Moneda1")
 
+    promedioPc1=fields.Float("Promedio de PC1",readonly=True)
+
+    @api.onchange("evaluacionIds")
+    def promedio_pc1(self):
+        pc1=0
+        for pc in self.evaluacionIds:
+            pc1=pc1+pc.pc1
+        pc1=pc1/len(self.evaluacionIds)
+
+        self.promedioPc1=pc1
+
 class alumno(models.Model):
     _rec_name = "nombre"
     _name = "ga.alumno"
@@ -59,7 +70,10 @@ class alumno(models.Model):
     phone = fields.Char("Telefono fijo")
     mobile = fields.Char("Teléfono Móbil")
     direccion = fields.Char("Dirección")
-
+    estado = fields.Selection(
+        [("registrado", "Registrado"),
+         ("matriculado", "Matriculado"),
+         ("retirado", "Retirado")])
     evaluacionIds = fields.One2many("ga.evaluacion", "alumnoId")
 
 class evaluacion(models.Model):
@@ -73,8 +87,7 @@ class evaluacion(models.Model):
     exf = fields.Integer("Ex. Final")
     exp = fields.Integer("Ex. Parcial")
     pp = fields.Integer("Promedio Ponderado",compute="calcular_promedio")
-    estado = fields.Selection(
-        [("registrado", "Registrado"), ("matriculado", "Matriculado"), ("retirado", "Retirado")])
+
     alumnoId = fields.Many2one("ga.alumno", string="Alumno")
 
     cursoId = fields.Many2one("ga.curso", string="Curso")
@@ -86,6 +99,7 @@ class evaluacion(models.Model):
         record=self
         promedio = ((record.pc1+record.pc2+record.pc3+record.pc4)/4+ record.exp+record.exf)/3
         self.pp = promedio
+
 
         # class gestor_academico2(models.Model):
 #     _name = 'gestor_academico2.gestor_academico2'

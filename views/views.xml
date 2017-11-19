@@ -118,18 +118,22 @@
                     <notebook>
 
                         <page string="evaluaciones">
-                            <field name="evaluacionIds" mode="tree">
-                                  <tree editable="top">
-                                      <field name="alumnoId"/>
-                                      <field name="pc1"/>
-                                      <field name="pc2"/>
-                                      <field name="pc3"/>
-                                      <field name="pc4"/>
-                                      <field name="exp"/>
-                                      <field name="exf"/>
-                                      <field name="pp"/>
-                                  </tree>
-                            </field>
+                            <group>
+                                <field name="evaluacionIds" mode="tree">
+                                      <tree editable="top">
+                                          <field name="alumnoId"/>
+                                          <field name="pc1"/>
+                                          <field name="pc2"/>
+                                          <field name="pc3"/>
+                                          <field name="pc4"/>
+                                          <field name="exp"/>
+                                          <field name="exf"/>
+                                          <field name="pp"/>
+                                      </tree>
+                                </field>
+
+                                <field name="promedioPc1" />
+                            </group>
                         </page>
 
                         <page string="datos">
