@@ -54,7 +54,18 @@
                       <div class="col-xs-6">
                           <group>
                             <field name="apellido"/>
+                              <field name="sueldo"/>
+                              <field name="edad"/>
                           </group>
+                      </div>
+                      <div>
+                          <field name="cursoIds" mode="tree">
+                              <tree editable="top">
+                                  <field name="name"/>
+                                  <field name="costo"/>
+                                  <field name="tiempo"/>
+                              </tree>
+                          </field>
                       </div>
                   </sheet>
               </form>
