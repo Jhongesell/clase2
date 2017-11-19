@@ -38,7 +38,7 @@ class curso(models.Model):
     _description="Curso"
 
     profesorId=fields.Many2one("ga.profesor")
-    evaluacionId=fields.One2many("ga.evaluacion","cursoId")
+    evaluacionIds=fields.One2many("ga.evaluacion","cursoId")
 
     name=fields.Char(string="Nombre del curso")
     descripcion=fields.Html(string="Descripción del curso")
@@ -59,6 +59,7 @@ class alumno(models.Model):
     phone = fields.Char("Telefono fijo")
     mobile = fields.Char("Teléfono Móbil")
     direccion = fields.Char("Dirección")
+
     evaluacionIds = fields.One2many("ga.evaluacion", "alumnoId")
 
 class evaluacion(models.Model):
@@ -75,6 +76,7 @@ class evaluacion(models.Model):
     estado = fields.Selection(
         [("registrado", "Registrado"), ("matriculado", "Matriculado"), ("retirado", "Retirado")])
     alumnoId = fields.Many2one("ga.alumno", string="Alumno")
+
     cursoId = fields.Many2one("ga.curso", string="Curso")
 
 

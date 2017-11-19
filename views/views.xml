@@ -107,6 +107,50 @@
 
 
 
+        <record model="ir.ui.view" id="ga_form_cursos">
+            <field name="name">Curso</field>
+            <field name="model">ga.curso</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                    <notebook>
+
+                        <page string="evaluaciones">
+                            <field name="evaluacionIds" mode="tree">
+                                  <tree editable="top">
+                                      <field name="alumnoId"/>
+                                      <field name="pc1"/>
+                                      <field name="pc2"/>
+                                      <field name="pc3"/>
+                                      <field name="pc4"/>
+                                      <field name="exp"/>
+                                      <field name="exf"/>
+                                      <field name="pp"/>
+                                  </tree>
+                            </field>
+                        </page>
+
+                        <page string="datos">
+                            <field name="tiempo"></field>
+                            <field name="descripcion"/>
+                        </page>
+                    </notebook>
+                </form>
+            </field>
+        </record>
+      <record model="ir.actions.act_window" id="action_cursos">
+          <field name="name">Cursos</field>
+          <field name="res_model">ga.curso</field>
+          <field name="view_mode">tree,form</field>
+      </record>
+
+      <menuitem name="Cursos"
+                parent="root"
+                id="root_cursos"
+                action="action_cursos"/>
+
 
 
 
