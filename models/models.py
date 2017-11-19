@@ -72,7 +72,7 @@ class evaluacion(models.Model):
     pc4 = fields.Integer("PC4")
     exf = fields.Integer("Ex. Final")
     exp = fields.Integer("Ex. Parcial")
-    pp = fields.Integer("Promedio Ponderado", compute="_promedio_ponderado")
+    pp = fields.Integer("Promedio Ponderado",compute="calcular_promedio")
     estado = fields.Selection(
         [("registrado", "Registrado"), ("matriculado", "Matriculado"), ("retirado", "Retirado")])
     alumnoId = fields.Many2one("ga.alumno", string="Alumno")
@@ -80,6 +80,12 @@ class evaluacion(models.Model):
     cursoId = fields.Many2one("ga.curso", string="Curso")
 
 
+    @api.one
+    @api.depends("pc1","pc2","pc3","pc4","exp","exf")
+    def calcular_promedio(self):
+        record=self
+        promedio = ((record.pc1+record.pc2+record.pc3+record.pc4)/4+ record.exp+record.exf)/3
+        self.pp = promedio
 
         # class gestor_academico2(models.Model):
 #     _name = 'gestor_academico2.gestor_academico2'
