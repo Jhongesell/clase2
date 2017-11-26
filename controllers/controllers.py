@@ -17,6 +17,10 @@ class home(http.Controller):
 
         return request.render("gestor_academico2.listaAlumnos",{"alumnos":Alumnos})
 
+    @http.route("/alumno/<model('ga.alumno'):alumno>",auth="user")
+    def detalleAlumno(self,alumno):
+        return request.render("gestor_academico2.detalleAlumno",{"alumno":alumno})
+
 
 
 

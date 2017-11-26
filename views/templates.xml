@@ -1,15 +1,33 @@
 <odoo>
     <data>
         <template id="listaAlumnos">
-            <ul>
+            <ul style="background-color:#eee;list-style:none;margin:0;display:flex">
                 <t t-foreach="alumnos" t-as="alumno">
-                    <li>
-                        <t t-esc="alumno.nombre"></t>
+                    <li style="width:100px">
+                        <a t-attf-href="alumno/{{alumno.id}}">
+                            <t t-esc="alumno.nombre"></t>
+                        </a>
                     </li>
                 </t>
             </ul>
         </template>
 
+
+        <template id="detalleAlumno">
+            <html>
+                <head>
+                    <title>Alumno: <t t-esc="alumno.nombre"/></title>
+                </head>
+                <body>
+                    <h1>Detalle de Alumno</h1>
+                    <ul>
+                        <li><span><b>Nombre:</b> <t t-esc="alumno.nombre"/> </span></li>
+                        <li><span><b>Apellidos:</b> <t t-esc="alumno.apellido"/></span></li>
+                        <a href="/alumnos">Regresar</a>
+                    </ul>
+                </body>
+            </html>
+        </template>
 
         <!-- <template id="listing"> -->
         <!--   <ul> -->
