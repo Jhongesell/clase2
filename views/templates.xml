@@ -1,5 +1,16 @@
 <odoo>
     <data>
+        <template id="listaAlumnos">
+            <ul>
+                <t t-foreach="alumnos" t-as="alumno">
+                    <li>
+                        <t t-esc="alumno.nombre"></t>
+                    </li>
+                </t>
+            </ul>
+        </template>
+
+
         <!-- <template id="listing"> -->
         <!--   <ul> -->
         <!--     <li t-foreach="objects" t-as="object"> -->
