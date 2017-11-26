@@ -1,0 +1,9 @@
+<odoo>
+    <data>
+        <record id="profesores" model="res.groups">
+            <field name="name">Grupo de Profesores</field>
+            <field name="view_access" eval="[(4,ref('ga_list_profesores')),(4,ref('view_graph_curso'))]"/>
+            <field name="menu_access" eval="[(4,ref('root'))]"></field>
+        </record>
+    </data>
+</odoo>
