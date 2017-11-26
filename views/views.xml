@@ -155,10 +155,47 @@
                 id="root_cursos"
                 action="action_cursos"/>
 
+        <record model="ir.actions.act_window" id="action_form_alumnos">
+          <field name="name">Alumnos Formulario</field>
+          <field name="res_model">ga.alumno</field>
+          <field name="view_mode">form</field>
+        </record>
+
+      <record model="ir.ui.view" id="kanban_alumnos">
+          <field name="name">Kanban Alumnos</field>
+          <field name="model">ga.alumno</field>
+          <field name="arch" type="xml">
+              <kanban default_group_by="state" group_create="true" group_edit="true">
+                  <field name="nombre"/>
+                  <field name="email"/>
+                  <templates>
+                      <t t-name="kanban-box">
+                          <div>
+                              <a t-name="%{action_form_alumnos}d" type="open">
+                                  <h2>
+                                        <t t-esc="record.nombre.value"/>
+                                  </h2>
+                              </a>
+                                  <t t-esc="record.email.value" />
+                          </div>
+                      </t>
+                  </templates>
+              </kanban>
+          </field>
+      </record>
 
 
+      <record model="ir.actions.act_window" id="action_alumnos">
+          <field name="name">Alumnos Kanban</field>
+          <field name="res_model">ga.alumno</field>
+          <field name="view_id" ref="kanban_alumnos"/>
+          <field name="view_mode">kanban,form</field>
+      </record>
 
-
+      <menuitem name="Alumnos"
+                parent="root"
+                id="root_alumnos"
+                action="action_alumnos"/>
 
 
 

@@ -70,7 +70,7 @@ class alumno(models.Model):
     phone = fields.Char("Telefono fijo")
     mobile = fields.Char("Teléfono Móbil")
     direccion = fields.Char("Dirección")
-    estado = fields.Selection(
+    state = fields.Selection(
         [("registrado", "Registrado"),
          ("matriculado", "Matriculado"),
          ("retirado", "Retirado")])
