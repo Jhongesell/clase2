@@ -119,7 +119,7 @@
 
                         <page string="evaluaciones">
                             <group>
-                                <field name="evaluacionIds" mode="tree">
+                                <field name="evaluacionIds" mode="tree" groups="gestor_academico2.profesores,base.group_user">
                                       <tree editable="top">
                                           <field name="alumnoId"/>
                                           <field name="pc1"/>

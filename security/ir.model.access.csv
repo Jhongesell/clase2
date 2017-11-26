@@ -1,2 +1,4 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_ga_curso ,model.ga.curso,model_ga_curso,profesores,1,1,1,1
+access_ga_evaluacion ,model.ga.evaluacion,model_ga_evaluacion,profesores,1,1,1,1
+access_ga_alumno ,model.ga.alumno,model_ga_alumno,profesores,1,0,0,0
