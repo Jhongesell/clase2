@@ -46,16 +46,33 @@ class curso(models.Model):
     costo=fields.Monetary(string="Costo",currency_field="currency_id")
     currency_id=fields.Many2one("res.currency",string="Moneda1")
 
-    promedioPc1=fields.Float("Promedio de PC1",readonly=True)
+    promedioPc1=fields.Float("Promedio de PC1",store=True)
+    promedioPc2 = fields.Float("Promedio de PC2", store=True,compute="promedio_pc2")
+
 
     @api.onchange("evaluacionIds")
     def promedio_pc1(self):
         pc1=0
         for pc in self.evaluacionIds:
             pc1=pc1+pc.pc1
-        pc1=pc1/len(self.evaluacionIds)
+        n=len(self.evaluacionIds)
+        if len(self.evaluacionIds)==0:
+            n=1
+        pc1=pc1/n
 
         self.promedioPc1=pc1
+
+    @api.depends("evaluacionIds.pc2")
+    def promedio_pc2(self):
+        pc2 = 0
+        for pc in self.evaluacionIds:
+            pc2 = pc2 + pc.pc2
+        n = len(self.evaluacionIds)
+        if len(self.evaluacionIds) == 0:
+            n = 1
+        pc2 = pc2 / n
+
+        self.promedioPc2 = pc2
 
 class alumno(models.Model):
     _rec_name = "nombre"
@@ -79,14 +96,14 @@ class alumno(models.Model):
 class evaluacion(models.Model):
     _name = "ga.evaluacion"
     _description = "Evaluacion"
-
+    _order = "pp"
     pc1 = fields.Integer("PC1")
     pc2 = fields.Integer("PC2")
     pc3 = fields.Integer("PC3")
     pc4 = fields.Integer("PC4")
     exf = fields.Integer("Ex. Final")
     exp = fields.Integer("Ex. Parcial")
-    pp = fields.Integer("Promedio Ponderado",compute="calcular_promedio")
+    pp = fields.Integer("Promedio Ponderado",compute="calcular_promedio",store=True)
 
     alumnoId = fields.Many2one("ga.alumno", string="Alumno")
 

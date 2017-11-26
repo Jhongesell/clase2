@@ -133,6 +133,7 @@
                                 </field>
 
                                 <field name="promedioPc1" />
+                                <field name="promedioPc2" />
                             </group>
                         </page>
 
@@ -197,8 +198,52 @@
                 id="root_alumnos"
                 action="action_alumnos"/>
 
+      <record model="ir.ui.view" id="view_graph_evaluacion">
+          <field name="name">view.graph.evaluacion</field>
+          <field name="model">ga.evaluacion</field>
+          <field name="arch" type="xml">
+              <graph type="bar" groupby="cursoId">
+                  <field name="cursoId" type="column"/>
+                  <field name="exp" type="row"/>
+              </graph>
+          </field>
+      </record>
+
+      <record model="ir.actions.act_window" id="action_evaluaciones">
+          <field name="name">Evaluaciones</field>
+          <field name="res_model">ga.evaluacion</field>
+          <field name="view_id" ref="view_graph_evaluacion"/>
+      </record>
+
+      <menuitem name="Evaluaciones"
+                parent="root"
+                id="root_evaluaciones"
+                action="action_evaluaciones"/>
+
+        <record model="ir.ui.view" id="view_graph_curso">
+              <field name="name">view.graph.curso</field>
+              <field name="model">ga.curso</field>
+              <field name="arch" type="xml">
+                  <graph type="bar" >
+                      <field name="name" type="column"/>
+                      <field name="promedioPc1" type="measure"/>
+                      <field name="promedioPc2" type="measure"/>
+                  </graph>
+              </field>
+          </record>
 
 
+        <record model="ir.actions.act_window" id="action_est_cursos">
+          <field name="name">Estadística de Cursos</field>
+          <field name="res_model">ga.curso</field>
+          <field name="view_id" ref="view_graph_curso"/>
+            <field name="view_mode">graph</field>
+        </record>
+
+       <menuitem name="Estadística de Cursos"
+                parent="root"
+                id="root_est_cursos"
+                action="action_est_cursos"/>
 
 
     <!-- explicit list view definition -->
