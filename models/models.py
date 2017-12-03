@@ -93,6 +93,31 @@ class alumno(models.Model):
          ("retirado", "Retirado")])
     evaluacionIds = fields.One2many("ga.evaluacion", "alumnoId")
 
+
+
+    @api.model
+    def todosalumnos(self):
+        data=self.env["ga.alumno"].search([["state","=","matriculado"]])
+        alumnos={}
+        for alumno in data:
+            nombre=alumno.nombre
+            evaluaciones=self.env["ga.evaluacion"].search([ ["alumnoId","=",alumno.id] ])
+            arrEval=[]
+            for eval in evaluaciones:
+                arrEval.append({"curso":eval.cursoId.name,"Prom. pond":eval.pp})
+            evaluaciones=arrEval
+            alumnos[alumno.id]={
+                "nombre":nombre,
+                "evaluaciones":evaluaciones
+            }
+        return {"alumnos": alumnos}
+
+    @api.model
+    def suma(self,paramx,paramy,param1=0,param2=10,param3=0):
+        return {"resultado":param1+param2+param3}
+
+
+
 class evaluacion(models.Model):
     _name = "ga.evaluacion"
     _description = "Evaluacion"

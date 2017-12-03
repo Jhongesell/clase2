@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ea4dcc5-1ad6-4c45-83fc-7cbeeeeb9506" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/d22d46e7-3b44-472c-912b-75d3b5f2458e/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/d22d46e7-3b44-472c-912b-75d3b5f2458e/_metadata_/metadata" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/d22d46e7-3b44-472c-912b-75d3b5f2458e/_metadata_/metadata.keystream" afterPath="$PROJECT_DIR$/.idea/dataSources/d22d46e7-3b44-472c-912b-75d3b5f2458e/_metadata_/metadata.keystream" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/d22d46e7-3b44-472c-912b-75d3b5f2458e/_metadata_/metadata.keystream.len" afterPath="$PROJECT_DIR$/.idea/dataSources/d22d46e7-3b44-472c-912b-75d3b5f2458e/_metadata_/metadata.keystream.len" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/d22d46e7-3b44-472c-912b-75d3b5f2458e/_metadata_/metadata.len" afterPath="$PROJECT_DIR$/.idea/dataSources/d22d46e7-3b44-472c-912b-75d3b5f2458e/_metadata_/metadata.len" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/d22d46e7-3b44-472c-912b-75d3b5f2458e/_metadata_/metadata_i" afterPath="$PROJECT_DIR$/.idea/dataSources/d22d46e7-3b44-472c-912b-75d3b5f2458e/_metadata_/metadata_i" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/d22d46e7-3b44-472c-912b-75d3b5f2458e/_metadata_/metadata_i.len" afterPath="$PROJECT_DIR$/.idea/dataSources/d22d46e7-3b44-472c-912b-75d3b5f2458e/_metadata_/metadata_i.len" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/controllers.py" afterPath="$PROJECT_DIR$/controllers/controllers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/templates.xml" afterPath="$PROJECT_DIR$/views/templates.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/models.py" afterPath="$PROJECT_DIR$/models/models.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,39 +29,18 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="GestorAcademicoDB2@192.168.99.100" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="GestorAcademicoDB2@192.168.99.100" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="gestor_academico2" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="33" column="7" lean-forward="false" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+            <state relative-caret-position="572">
+              <caret line="110" column="43" lean-forward="true" selection-start-line="110" selection-start-column="43" selection-end-line="110" selection-end-column="43" />
               <folding>
                 <element signature="e#25#61#0" expanded="true" />
               </folding>
@@ -65,8 +51,8 @@
       <file leaf-file-name="controllers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/controllers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1092">
-              <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+            <state relative-caret-position="1196">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="e#25#46#0" expanded="true" />
               </folding>
@@ -74,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="templates.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="templates.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/templates.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="468">
-              <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="35" />
+              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -87,11 +73,9 @@
       <file leaf-file-name="views.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/views.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
-              <folding>
-                <element signature="n#record#9;n#data#0;n#odoo#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="6292">
+              <caret line="121" column="32" lean-forward="false" selection-start-line="121" selection-start-column="32" selection-end-line="121" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,8 +83,8 @@
       <file leaf-file-name="ga_security.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/security/ga_security.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="208">
+              <caret line="4" column="71" lean-forward="false" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -109,8 +93,8 @@
       <file leaf-file-name="__manifest__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/__manifest__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="936">
+              <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -119,8 +103,8 @@
       <file leaf-file-name="ir.model.access.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/security/ir.model.access.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="3" column="51" lean-forward="true" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+            <state relative-caret-position="208">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -144,19 +128,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response90.json" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/demo/demo.xml" />
         <option value="$USER_HOME$/Desktop/profe.csv" />
-        <option value="$PROJECT_DIR$/models/models.py" />
         <option value="dbtable:/4d842d99/d22d46e7-3b44-472c-912b-75d3b5f2458e/GestorAcademicoDB2.public.res_groups" />
         <option value="$PROJECT_DIR$/security/ir.model.access.csv" />
         <option value="$PROJECT_DIR$/security/ga_security.xml" />
         <option value="$PROJECT_DIR$/views/views.xml" />
         <option value="$PROJECT_DIR$/__manifest__.py" />
-        <option value="$PROJECT_DIR$/controllers/controllers.py" />
         <option value="$PROJECT_DIR$/views/templates.xml" />
+        <option value="$PROJECT_DIR$/models/models.py" />
+        <option value="$PROJECT_DIR$/controllers/controllers.py" />
       </list>
     </option>
   </component>
@@ -167,10 +154,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-13" />
+    <option name="x" value="7667" />
     <option name="y" value="-13" />
-    <option name="width" value="3866" />
-    <option name="height" value="2106" />
+    <option name="width" value="2074" />
+    <option name="height" value="1482" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -263,12 +250,1148 @@
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.selected.configurable" value="RemoteServers" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Docker Containers/box/addons/reporteoperatorio" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1520089523000" />
+                <option name="domain" value="192.168.99.100" />
+                <option name="name" value="session_id" />
+                <option name="path" value="/" />
+                <option name="value" value="d645c5ae6deccd8a9d0a5f256bf5222881e05adf" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.99.100:8080" />
+          <option name="urlPath" value="/web/dataset/call_kw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="session_id=b297b72c737b26baf643e4532d8f701e1d13c1a4" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{                  &quot;jsonrpc&quot;: &quot;2.0&quot;,           &quot;method&quot;: &quot;call&quot;,            &quot;params&quot;: {             &quot;model&quot;:&quot;ga.alumno&quot;,        &quot;method&quot;:&quot;suma&quot;,           &quot;args&quot;:[],           &quot;kwargs&quot;:{               &quot;param1&quot;:1,            &quot;param2&quot;:12       }        }   }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1520089467000" />
+                <option name="domain" value="192.168.99.100" />
+                <option name="name" value="session_id" />
+                <option name="path" value="/" />
+                <option name="value" value="d645c5ae6deccd8a9d0a5f256bf5222881e05adf" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.99.100:8080" />
+          <option name="urlPath" value="/web/dataset/call_kw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="session_id=b297b72c737b26baf643e4532d8f701e1d13c1a4" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{                  &quot;jsonrpc&quot;: &quot;2.0&quot;,           &quot;method&quot;: &quot;call&quot;,            &quot;params&quot;: {             &quot;model&quot;:&quot;ga.alumno&quot;,        &quot;method&quot;:&quot;suma&quot;,           &quot;args&quot;:[],           &quot;kwargs&quot;:{               &quot;param1&quot;:1,            &quot;param2&quot;:12       }        }   }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.99.100:8080" />
+          <option name="urlPath" value="/web/session/authenticate" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{      &quot;jsonrpc&quot;: &quot;2.0&quot;,      &quot;method&quot;: &quot;call&quot;,      &quot;params&quot;: {          &quot;db&quot;: &quot;GestorAcademicoDB2&quot;,     &quot;login&quot;: &quot;admin&quot;,     &quot;password&quot;: &quot;admin&quot;   } }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1520089467000" />
+                <option name="domain" value="192.168.99.100" />
+                <option name="name" value="session_id" />
+                <option name="path" value="/" />
+                <option name="value" value="d645c5ae6deccd8a9d0a5f256bf5222881e05adf" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.99.100:8080" />
+          <option name="urlPath" value="/web/dataset/call_kw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="session_id=0339d1ed8d4eb61444c081d863b7303fa381efc3" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{                  &quot;jsonrpc&quot;: &quot;2.0&quot;,           &quot;method&quot;: &quot;call&quot;,            &quot;params&quot;: {             &quot;model&quot;:&quot;ga.alumno&quot;,        &quot;method&quot;:&quot;suma&quot;,           &quot;args&quot;:[],           &quot;kwargs&quot;:{               &quot;param1&quot;:1,            &quot;param2&quot;:12       }        }   }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1520089466000" />
+                <option name="domain" value="192.168.99.100" />
+                <option name="name" value="session_id" />
+                <option name="path" value="/" />
+                <option name="value" value="d645c5ae6deccd8a9d0a5f256bf5222881e05adf" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.99.100:8080" />
+          <option name="urlPath" value="/web/dataset/call_kw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="session_id=0339d1ed8d4eb61444c081d863b7303fa381efc3" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{                  &quot;jsonrpc&quot;: &quot;2.0&quot;,           &quot;method&quot;: &quot;call&quot;,            &quot;params&quot;: {             &quot;model&quot;:&quot;ga.alumno&quot;,        &quot;method&quot;:&quot;suma&quot;,           &quot;args&quot;:[],           &quot;kwargs&quot;:{               &quot;param1&quot;:1,            &quot;param2&quot;:12       }        }   }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1520089439000" />
+                <option name="domain" value="192.168.99.100" />
+                <option name="name" value="session_id" />
+                <option name="path" value="/" />
+                <option name="value" value="d645c5ae6deccd8a9d0a5f256bf5222881e05adf" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.99.100:8080" />
+          <option name="urlPath" value="/web/dataset/call_kw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="session_id=0339d1ed8d4eb61444c081d863b7303fa381efc3" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{                  &quot;jsonrpc&quot;: &quot;2.0&quot;,           &quot;method&quot;: &quot;call&quot;,            &quot;params&quot;: {             &quot;model&quot;:&quot;ga.alumno&quot;,        &quot;method&quot;:&quot;suma&quot;,           &quot;args&quot;:[],           &quot;kwargs&quot;:{               &quot;param1&quot;:1,            &quot;param2&quot;:12       }        }   }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1520089439000" />
+                <option name="domain" value="192.168.99.100" />
+                <option name="name" value="session_id" />
+                <option name="path" value="/" />
+                <option name="value" value="d645c5ae6deccd8a9d0a5f256bf5222881e05adf" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.99.100:8080" />
+          <option name="urlPath" value="/web/dataset/call_kw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="session_id=97a174816661593ad603d194d7b77f5223f4ac31" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{                  &quot;jsonrpc&quot;: &quot;2.0&quot;,           &quot;method&quot;: &quot;call&quot;,            &quot;params&quot;: {             &quot;model&quot;:&quot;ga.alumno&quot;,        &quot;method&quot;:&quot;suma&quot;,           &quot;args&quot;:[],           &quot;kwargs&quot;:{               &quot;param1&quot;:1,            &quot;param2&quot;:12       }        }   }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1520089438000" />
+                <option name="domain" value="192.168.99.100" />
+                <option name="name" value="session_id" />
+                <option name="path" value="/" />
+                <option name="value" value="d645c5ae6deccd8a9d0a5f256bf5222881e05adf" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.99.100:8080" />
+          <option name="urlPath" value="/web/dataset/call_kw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="session_id=97a174816661593ad603d194d7b77f5223f4ac31" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{                  &quot;jsonrpc&quot;: &quot;2.0&quot;,           &quot;method&quot;: &quot;call&quot;,            &quot;params&quot;: {             &quot;model&quot;:&quot;ga.alumno&quot;,        &quot;method&quot;:&quot;suma&quot;,           &quot;args&quot;:[],           &quot;kwargs&quot;:{               &quot;param1&quot;:1,            &quot;param2&quot;:12       }        }   }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1520089303000" />
+                <option name="domain" value="192.168.99.100" />
+                <option name="name" value="session_id" />
+                <option name="path" value="/" />
+                <option name="value" value="7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.99.100:8080" />
+          <option name="urlPath" value="/web/dataset/call_kw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="session_id=97a174816661593ad603d194d7b77f5223f4ac31" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{                  &quot;jsonrpc&quot;: &quot;2.0&quot;,           &quot;method&quot;: &quot;call&quot;,            &quot;params&quot;: {             &quot;model&quot;:&quot;ga.alumno&quot;,        &quot;method&quot;:&quot;suma&quot;,           &quot;args&quot;:[],           &quot;kwargs&quot;:{               &quot;param1&quot;:1,            &quot;param2&quot;:12       }        }   }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1520089303000" />
+                <option name="domain" value="192.168.99.100" />
+                <option name="name" value="session_id" />
+                <option name="path" value="/" />
+                <option name="value" value="7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.99.100:8080" />
+          <option name="urlPath" value="/web/dataset/call_kw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="session_id=c96e19d09b3ef566c39df900bd5a0a294c87df69" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{               &quot;jsonrpc&quot;: &quot;2.0&quot;,        &quot;method&quot;: &quot;call&quot;,         &quot;params&quot;: {        &quot;model&quot;:&quot;ga.alumno&quot;,        &quot;method&quot;:&quot;suma&quot;,         &quot;args&quot;:[],             &quot;kwargs&quot;:{           &quot;param1&quot;:1,       &quot;param2&quot;:12     }        }   }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1520089005000" />
+                <option name="domain" value="192.168.99.100" />
+                <option name="name" value="session_id" />
+                <option name="path" value="/" />
+                <option name="value" value="7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.99.100:8080" />
+          <option name="urlPath" value="/web/dataset/call_kw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="session_id=c96e19d09b3ef566c39df900bd5a0a294c87df69" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{               &quot;jsonrpc&quot;: &quot;2.0&quot;,        &quot;method&quot;: &quot;call&quot;,         &quot;params&quot;: {        &quot;model&quot;:&quot;ga.alumno&quot;,        &quot;method&quot;:&quot;suma&quot;,         &quot;args&quot;:[],             &quot;kwargs&quot;:{           &quot;param1&quot;:1,       &quot;param2&quot;:12     }        }   }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1520089005000" />
+                <option name="domain" value="192.168.99.100" />
+                <option name="name" value="session_id" />
+                <option name="path" value="/" />
+                <option name="value" value="7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.99.100:8080" />
+          <option name="urlPath" value="/web/dataset/call_kw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="session_id=7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{               &quot;jsonrpc&quot;: &quot;2.0&quot;,        &quot;method&quot;: &quot;call&quot;,         &quot;params&quot;: {        &quot;model&quot;:&quot;ga.alumno&quot;,        &quot;method&quot;:&quot;suma&quot;,         &quot;args&quot;:[],             &quot;kwargs&quot;:{           &quot;param1&quot;:1,       &quot;param2&quot;:12     }        }   }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1520089004000" />
+                <option name="domain" value="192.168.99.100" />
+                <option name="name" value="session_id" />
+                <option name="path" value="/" />
+                <option name="value" value="7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.99.100:8080" />
+          <option name="urlPath" value="/web/dataset/call_kw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="session_id=7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{               &quot;jsonrpc&quot;: &quot;2.0&quot;,        &quot;method&quot;: &quot;call&quot;,         &quot;params&quot;: {        &quot;model&quot;:&quot;ga.alumno&quot;,        &quot;method&quot;:&quot;suma&quot;,         &quot;args&quot;:[],             &quot;kwargs&quot;:{           &quot;param1&quot;:1,       &quot;param2&quot;:12     }        }   }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1520089003000" />
+                <option name="domain" value="192.168.99.100" />
+                <option name="name" value="session_id" />
+                <option name="path" value="/" />
+                <option name="value" value="7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.99.100:8080" />
+          <option name="urlPath" value="/web/dataset/call_kw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="session_id=7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{               &quot;jsonrpc&quot;: &quot;2.0&quot;,        &quot;method&quot;: &quot;call&quot;,         &quot;params&quot;: {        &quot;model&quot;:&quot;ga.alumno&quot;,        &quot;method&quot;:&quot;suma&quot;,         &quot;args&quot;:[],             &quot;kwargs&quot;:{           &quot;param1&quot;:1,       &quot;param2&quot;:12     }        }   }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1520088957000" />
+                <option name="domain" value="192.168.99.100" />
+                <option name="name" value="session_id" />
+                <option name="path" value="/" />
+                <option name="value" value="7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.99.100:8080" />
+          <option name="urlPath" value="/web/dataset/call_kw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="session_id=7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{               &quot;jsonrpc&quot;: &quot;2.0&quot;,        &quot;method&quot;: &quot;call&quot;,         &quot;params&quot;: {        &quot;model&quot;:&quot;ga.alumno&quot;,        &quot;method&quot;:&quot;suma&quot;,         &quot;args&quot;:[],             &quot;kwargs&quot;:{           &quot;param1&quot;:1,       &quot;param2&quot;:12     }        }   }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1520088902000" />
+                <option name="domain" value="192.168.99.100" />
+                <option name="name" value="session_id" />
+                <option name="path" value="/" />
+                <option name="value" value="7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.99.100:8080" />
+          <option name="urlPath" value="/web/dataset/call_kw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="session_id=7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{            &quot;jsonrpc&quot;: &quot;2.0&quot;,            &quot;method&quot;: &quot;call&quot;,            &quot;params&quot;: {                    &quot;model&quot;:&quot;ga.alumno&quot;,               &quot;method&quot;:&quot;saludar&quot;,               &quot;args&quot;:[],               &quot;kwargs&quot;:{                     &quot;id&quot;:1      }      }   }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1520088892000" />
+                <option name="domain" value="192.168.99.100" />
+                <option name="name" value="session_id" />
+                <option name="path" value="/" />
+                <option name="value" value="7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.99.100:8080" />
+          <option name="urlPath" value="/web/dataset/call_kw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="session_id=7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{            &quot;jsonrpc&quot;: &quot;2.0&quot;,            &quot;method&quot;: &quot;call&quot;,            &quot;params&quot;: {                    &quot;model&quot;:&quot;ga.alumno&quot;,               &quot;method&quot;:&quot;saludar&quot;,               &quot;args&quot;:[],               &quot;kwargs&quot;:{                     &quot;id&quot;:1      }      }   }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1520088891000" />
+                <option name="domain" value="192.168.99.100" />
+                <option name="name" value="session_id" />
+                <option name="path" value="/" />
+                <option name="value" value="7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.99.100:8080" />
+          <option name="urlPath" value="/web/dataset/call_kw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="session_id=7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{            &quot;jsonrpc&quot;: &quot;2.0&quot;,            &quot;method&quot;: &quot;call&quot;,            &quot;params&quot;: {                    &quot;model&quot;:&quot;ga.alumno&quot;,               &quot;method&quot;:&quot;saludar&quot;,               &quot;args&quot;:[],               &quot;kwargs&quot;:{                     &quot;id&quot;:1      }      }   }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1520088800000" />
+                <option name="domain" value="192.168.99.100" />
+                <option name="name" value="session_id" />
+                <option name="path" value="/" />
+                <option name="value" value="7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.99.100:8080" />
+          <option name="urlPath" value="/web/dataset/call_kw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="session_id=7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{            &quot;jsonrpc&quot;: &quot;2.0&quot;,            &quot;method&quot;: &quot;call&quot;,            &quot;params&quot;: {                    &quot;model&quot;:&quot;ga.alumno&quot;,               &quot;method&quot;:&quot;saludar&quot;,               &quot;args&quot;:[],               &quot;kwargs&quot;:{                     &quot;id&quot;:1      }      }   }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1520088789000" />
+                <option name="domain" value="192.168.99.100" />
+                <option name="name" value="session_id" />
+                <option name="path" value="/" />
+                <option name="value" value="7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.99.100:8080" />
+          <option name="urlPath" value="/web/dataset/call_kw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="session_id=7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{         &quot;jsonrpc&quot;: &quot;2.0&quot;,         &quot;method&quot;: &quot;call&quot;,         &quot;params&quot;: {               &quot;model&quot;:&quot;ga.alumno&quot;,          &quot;method&quot;:&quot;saludar&quot;,          &quot;args&quot;:[],          &quot;kwargs&quot;:{              &quot;id&quot;:1 }   }  }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1520088641000" />
+                <option name="domain" value="192.168.99.100" />
+                <option name="name" value="session_id" />
+                <option name="path" value="/" />
+                <option name="value" value="7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.99.100:8080" />
+          <option name="urlPath" value="/web/dataset/call_kw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="session_id=7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{         &quot;jsonrpc&quot;: &quot;2.0&quot;,         &quot;method&quot;: &quot;call&quot;,         &quot;params&quot;: {               &quot;model&quot;:&quot;ga.alumno&quot;,          &quot;method&quot;:&quot;saludar&quot;,          &quot;args&quot;:[],          &quot;kwargs&quot;:{              &quot;id&quot;:1 }   }  }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1520088598000" />
+                <option name="domain" value="192.168.99.100" />
+                <option name="name" value="session_id" />
+                <option name="path" value="/" />
+                <option name="value" value="7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.99.100:8080" />
+          <option name="urlPath" value="/web/dataset/call_kw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="session_id=7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{      &quot;jsonrpc&quot;: &quot;2.0&quot;,      &quot;method&quot;: &quot;call&quot;,      &quot;params&quot;: {          &quot;model&quot;:&quot;ga.alumno&quot;,     &quot;method&quot;:&quot;suma&quot;,     &quot;args&quot;:[],     &quot;kwargs&quot;:{       &quot;param1&quot;:10,       &quot;param3&quot;:20     }   }  }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1520088441000" />
+                <option name="domain" value="192.168.99.100" />
+                <option name="name" value="session_id" />
+                <option name="path" value="/" />
+                <option name="value" value="7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.99.100:8080" />
+          <option name="urlPath" value="/web/dataset/call_kw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="session_id=7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{      &quot;jsonrpc&quot;: &quot;2.0&quot;,      &quot;method&quot;: &quot;call&quot;,      &quot;params&quot;: {          &quot;model&quot;:&quot;ga.alumno&quot;,     &quot;method&quot;:&quot;suma&quot;,     &quot;args&quot;:[],     &quot;kwargs&quot;:{       &quot;param1&quot;:10,       &quot;param3&quot;:20     }   }  }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1520088439000" />
+                <option name="domain" value="192.168.99.100" />
+                <option name="name" value="session_id" />
+                <option name="path" value="/" />
+                <option name="value" value="7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.99.100:8080" />
+          <option name="urlPath" value="/web/dataset/call_kw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="session_id=7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{      &quot;jsonrpc&quot;: &quot;2.0&quot;,      &quot;method&quot;: &quot;call&quot;,      &quot;params&quot;: {          &quot;model&quot;:&quot;alumno&quot;,     &quot;method&quot;:&quot;suma&quot;,     &quot;args&quot;:[],     &quot;kwargs&quot;:{       &quot;param1&quot;:10,       &quot;param3&quot;:20     }   }  }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1520088387000" />
+                <option name="domain" value="192.168.99.100" />
+                <option name="name" value="session_id" />
+                <option name="path" value="/" />
+                <option name="value" value="7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.99.100:8080" />
+          <option name="urlPath" value="/web/dataset/call_kw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="session_id=7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{      &quot;jsonrpc&quot;: &quot;2.0&quot;,      &quot;method&quot;: &quot;call&quot;,      &quot;params&quot;: {          &quot;model&quot;:&quot;alumno&quot;,     &quot;method&quot;:&quot;suma&quot;,     &quot;args&quot;:[],     &quot;kwargs&quot;:{       &quot;param1&quot;:10,       &quot;param3&quot;:20     }   }  }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1520088231000" />
+                <option name="domain" value="192.168.99.100" />
+                <option name="name" value="session_id" />
+                <option name="path" value="/" />
+                <option name="value" value="7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.99.100:8080" />
+          <option name="urlPath" value="/web/dataset/call_kw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="session_id=7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{      &quot;jsonrpc&quot;: &quot;2.0&quot;,      &quot;method&quot;: &quot;call&quot;,      &quot;params&quot;: {          &quot;model&quot;:&quot;ga.alumno&quot;,     &quot;method&quot;:&quot;suma&quot;,     &quot;args&quot;:[],     &quot;kwargs&quot;:{       &quot;param1&quot;:10,       &quot;param3&quot;:20     }   }  }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1520088205000" />
+                <option name="domain" value="192.168.99.100" />
+                <option name="name" value="session_id" />
+                <option name="path" value="/" />
+                <option name="value" value="7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.99.100:8080" />
+          <option name="urlPath" value="/web/dataset/call_kw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="session_id=7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{      &quot;jsonrpc&quot;: &quot;2.0&quot;,      &quot;method&quot;: &quot;call&quot;,      &quot;params&quot;: {          &quot;model&quot;:&quot;ga.alumno&quot;,     &quot;method&quot;:&quot;suma&quot;,     &quot;args&quot;:[],     &quot;kwargs&quot;:{       &quot;param1&quot;:10,       &quot;param3&quot;:20     }   }  }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1520087442000" />
+                <option name="domain" value="192.168.99.100" />
+                <option name="name" value="session_id" />
+                <option name="path" value="/" />
+                <option name="value" value="7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.99.100:8080" />
+          <option name="urlPath" value="/web/dataset/call_kw" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cookie" />
+                <option name="value" value="session_id=7583b3380d8d0b085e15eff75451a2facf7d7057" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{      &quot;jsonrpc&quot;: &quot;2.0&quot;,      &quot;method&quot;: &quot;call&quot;,      &quot;params&quot;: {          &quot;model&quot;:&quot;ga.alumno&quot;,     &quot;method&quot;:&quot;suma&quot;,     &quot;args&quot;:[],     &quot;kwargs&quot;:{       &quot;param1&quot;:10,       &quot;param3&quot;:20     }   }  }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://192.168.99.100:8080" />
+          <option name="urlPath" value="/web/session/authenticate" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{   &quot;jsonrpc&quot;: &quot;2.0&quot;,   &quot;method&quot;: &quot;call&quot;,   &quot;params&quot;: {     &quot;db&quot;: &quot;GestorAcademicoDB&quot;,     &quot;login&quot;: &quot;admin&quot;,     &quot;password&quot;: &quot;admin&quot;   } }" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Docker Deployment.ODOO2">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -601,20 +1724,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="-13" width="3866" height="2106" extended-state="6" />
+    <frame x="7667" y="-13" width="2074" height="1482" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10207889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16729832" sideWeight="0.6359275" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11365495" sideWeight="0.2984694" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2249467" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19705641" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2694678" sideWeight="0.4968017" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936722" sideWeight="0.49573863" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24813433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17108825" sideWeight="0.70153064" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21632653" sideWeight="0.49376947" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26246935" sideWeight="0.6359275" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20408164" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24813433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21632653" sideWeight="0.50623053" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -641,6 +1765,150 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/security/ga_security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__manifest__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/ir.model.access.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="3" column="51" lean-forward="false" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1612">
+          <caret line="33" column="7" lean-forward="false" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+          <folding>
+            <element signature="e#25#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/controllers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1040">
+          <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+          <folding>
+            <element signature="e#25#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/templates.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/views.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7800">
+          <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/ga_security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__manifest__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/ir.model.access.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="3" column="51" lean-forward="false" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1716">
+          <caret line="33" column="7" lean-forward="false" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+          <folding>
+            <element signature="e#25#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/controllers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+          <folding>
+            <element signature="e#25#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/templates.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/views.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7800">
+          <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/ga_security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__manifest__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/ir.model.access.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="3" column="51" lean-forward="true" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3744">
@@ -655,9 +1923,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#record#9;n#data#0;n#odoo#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -665,7 +1931,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -691,9 +1956,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#record#9;n#data#0;n#odoo#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -701,7 +1964,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -727,9 +1989,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#record#9;n#data#0;n#odoo#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -737,7 +1997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,9 +2022,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#record#9;n#data#0;n#odoo#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -773,7 +2030,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -994,26 +2250,26 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/4d842d99/d22d46e7-3b44-472c-912b-75d3b5f2458e/GestorAcademicoDB2.public.ir_ui_view">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/4d842d99/d22d46e7-3b44-472c-912b-75d3b5f2458e/GestorAcademicoDB2.public.res_currency">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -1021,72 +2277,72 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/4d842d99/d22d46e7-3b44-472c-912b-75d3b5f2458e/GestorAcademicoDB2.public.res_groups_users_rel">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
           <column-attributes>
             <column name="ctid" enabled="false" />
           </column-attributes>
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/4d842d99/d22d46e7-3b44-472c-912b-75d3b5f2458e/GestorAcademicoDB2.public.res_groups_action_rel">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
           <column-attributes>
             <column name="ctid" enabled="false" />
           </column-attributes>
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/4d842d99/d22d46e7-3b44-472c-912b-75d3b5f2458e/GestorAcademicoDB2.public.res_groups_report_rel">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
           <column-attributes>
             <column name="ctid" enabled="false" />
           </column-attributes>
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/4d842d99/d22d46e7-3b44-472c-912b-75d3b5f2458e/GestorAcademicoDB2.public.res_groups">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/4d842d99/d22d46e7-3b44-472c-912b-75d3b5f2458e/GestorAcademicoDB2.public.res_groups_implied_rel">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/4d842d99/d22d46e7-3b44-472c-912b-75d3b5f2458e/GestorAcademicoDB2.public.res_groups_implied_rel">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -1095,72 +2351,64 @@
           </column-attributes>
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/security/ir.model.access.csv">
+    <entry file="file://$PROJECT_DIR$/security/ga_security.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="3" column="51" lean-forward="true" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
+        <state relative-caret-position="208">
+          <caret line="4" column="71" lean-forward="false" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="71" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/__manifest__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security/ga_security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state relative-caret-position="936">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/views.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
-          <folding>
-            <element signature="n#record#9;n#data#0;n#odoo#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="6292">
+          <caret line="121" column="32" lean-forward="false" selection-start-line="121" selection-start-column="32" selection-end-line="121" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/models.py">
+    <entry file="file://$PROJECT_DIR$/security/ir.model.access.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="33" column="7" lean-forward="false" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-          <folding>
-            <element signature="e#25#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/controllers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
-          <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-          <folding>
-            <element signature="e#25#46#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="208">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/templates.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
-          <caret line="24" column="35" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="35" />
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/controllers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="110" column="43" lean-forward="true" selection-start-line="110" selection-start-column="43" selection-end-line="110" selection-end-column="43" />
+          <folding>
+            <element signature="e#25#61#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
