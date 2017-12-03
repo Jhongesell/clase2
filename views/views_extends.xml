@@ -1,0 +1,31 @@
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="extends_ruc">
+            <field name="name">res.partner.form.ruc</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//page[@name='internal_notes']" position="after">
+                    <page name="RUC" string="RUC">
+                        <group>
+                            <field name="ruc"/>
+                        </group>
+                    </page>
+                </xpath>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="extends_puntos">
+            <field name="name">res.partner.form.puntos</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="gestor_academico2.extends_ruc"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='ruc']" position="before">
+                    <field name="puntos"/>
+                    <field name="estadocivil"/>
+                </xpath>
+            </field>
+        </record>
+
+    </data>
+</odoo>

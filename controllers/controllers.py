@@ -22,9 +22,18 @@ class home(http.Controller):
         return request.render("gestor_academico2.detalleAlumno",{"alumno":alumno})
 
 
+    @http.route("/api/alumnos",auth="user",type="json")
+    def getAlumnos(self):
+        data=request.env["ga.alumno"].search([])
+        alumnos=[]
+        for alumno in data:
+            alumnos.append({"id":alumno.id,"nombre":alumno.nombre,"email":alumno.email})
+        return {"data":alumnos}
 
-
-
+    @http.route("/api2/alumnos", auth="user", type="json",methods=["POST"])
+    def getAlumnos(self):
+        data = request.env["ga.alumno"].search([])
+        return {"data": data.read(["nombre","evaluacionIds"])}
 
 # class GestorAcademico2(http.Controller):
 #     @http.route('/gestor_academico2/gestor_academico2/', auth='public')

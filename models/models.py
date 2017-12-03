@@ -4,6 +4,34 @@ from odoo import models, fields, api
 from odoo.exceptions import ValidationError
 import re
 
+class cliente(models.Model):
+    _inherit="res.partner"
+    ruc = fields.Char("RUC")
+
+    def _puntos_default(self):
+        return "soltero"
+
+    estadocivil= fields.Selection([("casado","1. Casado"),
+                                   ("soltero", "2. Soltero"),
+                                   ("viudo","3. Viudo")],
+                                  required=True,
+                                  default=_puntos_default,)
+
+
+    puntos=fields.Integer(string="Puntos Bonus",
+                          compute="calculodepuntos",
+                          help="Puntos Bonus, se calcula en base a las compras realizadas por el cliente")
+
+
+    @api.one
+    def calculodepuntos(self):
+        amount_total=self.puntos
+        for invoice in self.invoice_ids:
+            if invoice.state=="paid":
+                amount_total=amount_total+invoice.amount_total
+        self.puntos=amount_total*15
+
+
 class profesor(models.Model):
     _rec_name="apellido"
     _name="ga.profesor"

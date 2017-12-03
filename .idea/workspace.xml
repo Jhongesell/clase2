@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ea4dcc5-1ad6-4c45-83fc-7cbeeeeb9506" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/d22d46e7-3b44-472c-912b-75d3b5f2458e/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/d22d46e7-3b44-472c-912b-75d3b5f2458e/_metadata_/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/d22d46e7-3b44-472c-912b-75d3b5f2458e/_metadata_/metadata.keystream" afterPath="$PROJECT_DIR$/.idea/dataSources/d22d46e7-3b44-472c-912b-75d3b5f2458e/_metadata_/metadata.keystream" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/d22d46e7-3b44-472c-912b-75d3b5f2458e/_metadata_/metadata.keystream.len" afterPath="$PROJECT_DIR$/.idea/dataSources/d22d46e7-3b44-472c-912b-75d3b5f2458e/_metadata_/metadata.keystream.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/d22d46e7-3b44-472c-912b-75d3b5f2458e/_metadata_/metadata.len" afterPath="$PROJECT_DIR$/.idea/dataSources/d22d46e7-3b44-472c-912b-75d3b5f2458e/_metadata_/metadata.len" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/d22d46e7-3b44-472c-912b-75d3b5f2458e/_metadata_/metadata_i" afterPath="$PROJECT_DIR$/.idea/dataSources/d22d46e7-3b44-472c-912b-75d3b5f2458e/_metadata_/metadata_i" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/d22d46e7-3b44-472c-912b-75d3b5f2458e/_metadata_/metadata_i.len" afterPath="$PROJECT_DIR$/.idea/dataSources/d22d46e7-3b44-472c-912b-75d3b5f2458e/_metadata_/metadata_i.len" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/views_extends.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/__manifest__.py" afterPath="$PROJECT_DIR$/__manifest__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/controllers.py" afterPath="$PROJECT_DIR$/controllers/controllers.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/models.py" afterPath="$PROJECT_DIR$/models/models.py" />
     </list>
@@ -39,8 +35,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="110" column="43" lean-forward="true" selection-start-line="110" selection-start-column="43" selection-end-line="110" selection-end-column="43" />
+            <state relative-caret-position="252">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <element signature="e#25#61#0" expanded="true" />
               </folding>
@@ -51,8 +47,8 @@
       <file leaf-file-name="controllers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/controllers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1196">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="858">
+              <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="30" />
               <folding>
                 <element signature="e#25#46#0" expanded="true" />
               </folding>
@@ -60,21 +56,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="templates.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/templates.xml">
+      <file leaf-file-name="views.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/views.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="468">
-              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/views.xml">
+      <file leaf-file-name="views_extends.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/views_extends.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6292">
-              <caret line="121" column="32" lean-forward="false" selection-start-line="121" selection-start-column="32" selection-end-line="121" selection-end-column="32" />
+            <state relative-caret-position="468">
+              <caret line="24" column="44" lean-forward="false" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -93,8 +89,8 @@
       <file leaf-file-name="__manifest__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/__manifest__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="936">
-              <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="338">
+              <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -140,10 +136,11 @@
         <option value="$PROJECT_DIR$/security/ir.model.access.csv" />
         <option value="$PROJECT_DIR$/security/ga_security.xml" />
         <option value="$PROJECT_DIR$/views/views.xml" />
-        <option value="$PROJECT_DIR$/__manifest__.py" />
         <option value="$PROJECT_DIR$/views/templates.xml" />
-        <option value="$PROJECT_DIR$/models/models.py" />
         <option value="$PROJECT_DIR$/controllers/controllers.py" />
+        <option value="$PROJECT_DIR$/__manifest__.py" />
+        <option value="$PROJECT_DIR$/views/views_extends.xml" />
+        <option value="$PROJECT_DIR$/models/models.py" />
       </list>
     </option>
   </component>
@@ -154,10 +151,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="7667" />
-    <option name="y" value="-13" />
-    <option name="width" value="2074" />
-    <option name="height" value="1482" />
+    <option name="x" value="7956" />
+    <option name="y" value="247" />
+    <option name="width" value="1516" />
+    <option name="height" value="1464" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -1724,8 +1721,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="7667" y="-13" width="2074" height="1482" extended-state="6" />
-    <editor active="true" />
+    <frame x="7956" y="247" width="1516" height="1464" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11365495" sideWeight="0.2984694" order="8" side_tool="true" content_ui="tabs" />
@@ -1733,9 +1730,9 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2694678" sideWeight="0.4968017" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936722" sideWeight="0.49573863" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17108825" sideWeight="0.70153064" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17089126" sideWeight="0.70153064" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21632653" sideWeight="0.49376947" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26246935" sideWeight="0.6359275" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29460582" sideWeight="0.6359275" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20408164" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24813433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21632653" sideWeight="0.50623053" order="2" side_tool="true" content_ui="tabs" />
@@ -1765,14 +1762,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/security/ga_security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="8" column="7" lean-forward="false" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/__manifest__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="936">
@@ -2360,26 +2349,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/__manifest__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/views.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6292">
-          <caret line="121" column="32" lean-forward="false" selection-start-line="121" selection-start-column="32" selection-end-line="121" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/security/ir.model.access.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/__manifest__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -2394,18 +2375,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/controllers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1196">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="858">
+          <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="30" />
           <folding>
             <element signature="e#25#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/views_extends.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="24" column="44" lean-forward="false" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/views.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="110" column="43" lean-forward="true" selection-start-line="110" selection-start-column="43" selection-end-line="110" selection-end-column="43" />
+        <state relative-caret-position="252">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="e#25#61#0" expanded="true" />
           </folding>

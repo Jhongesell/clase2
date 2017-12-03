@@ -26,6 +26,7 @@
     'data': [
         'views/views.xml',
         'views/templates.xml',
+        'views/views_extends.xml',
         'demo/demo.xml',
         'security/ga_security.xml',
         'security/ir.model.access.csv',
